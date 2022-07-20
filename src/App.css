@@ -1,5 +1,7 @@
 .backgrount-contaier{
   font-family: Montserrat;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .menu-container{
@@ -111,12 +113,13 @@ font-weight: 700;
 }
 
 .footer-background-container{
+  overflow: hidden;
   position: fixed;
   bottom: 0px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   background-color: #464B4E;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -143,5 +146,5 @@ font-weight: 700;
   background-color: #464B4E;
   border: 0px solid;
   align-self: center;
-  margin-right: 4rem;
+  margin-right: 3rem;
 }
