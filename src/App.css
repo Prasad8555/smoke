@@ -1,0 +1,147 @@
+.backgrount-contaier{
+  font-family: Montserrat;
+}
+
+.menu-container{
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 0px;
+  border-bottom: 1px solid #000000;
+}
+
+.arrow-icon{
+  height: 23px;
+  width: 32.74205780029297px;
+  left: 351px;
+  top: 376px;
+  border-radius: 0px;
+}
+
+.arrow-button{
+  height: 65px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+
+.products-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+  padding: 2%;
+}
+
+.hide-login-page{
+  display: none;
+}
+
+.show-login-page{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #000000A3;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page{
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8vh;
+  padding-top: 12vh;
+  padding-bottom: 12vh;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo{
+  margin-bottom: 30px;
+}
+
+.email-input{
+  width: 285px;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 0px solid;
+  border-bottom: 1px solid #000000;
+  font-size: 20px;
+}
+
+.password-input{
+  width: 285px;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 0px solid;
+  border-bottom: 1px solid #000000;
+  font-size: 20px;
+}
+
+.error-message{
+  color: red;
+}
+
+.enter-button{
+  width: 289px;
+height: 48px;
+left: 627px;
+top: 623px;
+background: #464B4E;
+border-radius: 5px;
+color: #ffffff;
+border: 0px solid;
+font-weight: 700;
+}
+
+.footer-background-container{
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  background-color: #464B4E;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer-container{
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text{
+  margin: 0px;
+  align-self: center;
+  font-size: 16px;
+  align-self: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.close-button{
+  background-color: #464B4E;
+  border: 0px solid;
+  align-self: center;
+  margin-right: 4rem;
+}

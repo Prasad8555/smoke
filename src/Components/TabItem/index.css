@@ -1,0 +1,30 @@
+
+.tab-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 256px;
+  height: 63px;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.active-tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    height: 63px;
+    background-color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 4px solid #000000;
+}
+
+.tab-item-name{
+  margin-left: 8px;
+}
